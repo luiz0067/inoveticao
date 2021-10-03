@@ -1,0 +1,761 @@
+@charset "utf-8";
+body {
+		width:100%;
+		height:auto;min-height:100%;
+		margin-bottom:0px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:0px;
+		background-color:#1D282E;
+}
+@font-face {
+    font-family: 'myriadpro';
+    src: url('./fontes/myriadpro.eot');
+    src: url('./fontes/myriadpro.eot?#iefix') format('embedded-opentype'),
+         url('./fontes/myriadpro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+					
+@font-face {		
+	font-family:"corbel";				
+	_src: url("./fontes/corbel.ttf"),src: url("./fontes/corbel.eot");
+	src: url("./fontes/corbel.otf");
+	font-weight: normal; 
+	font-style: normal; 				
+}
+
+@font-face {
+	font-family:"hemihead";				
+	_src: url("./fontes/hemihead.ttf"),src: url("./fontes/hemihead.eot");
+	src: url("./fontes/hemihead.otf");
+	font-weight: normal; 
+	font-style: normal; 				
+}
+					
+
+
+/* Estrutura  Inove tição */
+
+#tudo {
+		width:100%;
+		height:auto;min-height:100%;
+		margin-bottom:0px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:0px;
+		background-color:#1D282E;
+		}
+
+div.linhastotal{
+		width:100%;
+		height:auto;
+		min-height:9px;
+		margin-left:0px;
+		margin-right:0px;
+}
+
+div.linhas{
+		width:1024px;
+		height:auto;
+		min-height:9px;
+		margin-left:auto;
+		margin-right:auto;
+		float:center;
+		clear:both;
+    }
+
+div.linhascentro{
+		width:907px;
+		height:auto;
+		min-height:9px;
+		margin-left:auto;
+		margin-right:auto;
+		float:center;
+		clear:both;
+	
+	}
+
+div.branco {
+	float:left;
+	}
+	
+#conteudo {
+	width:907px;
+	height:auto;
+	min-height:50px;
+	margin-left:auto;
+	margin-right:auto;
+	float:center;
+	background-color:transparent;
+}	
+
+#cabecalho {
+	width:907px;
+	height:auto;
+	min-height:311px;
+	margin-left:auto;
+	margin-right:auto;
+	float:center;
+	background-color:#000;
+	}		
+	
+#bannerprincipal {
+	width:650px;
+	height:auto;min-height:302px;
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#000;
+	}
+	
+#bannerinferior {
+	width:665px;
+	height:auto;min-height:166px;
+	float:left;
+	}		
+	
+
+	
+.divisorlinhas {
+	width:907px;
+	height:auto;min-height:9px;
+	float:center;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:transparent;
+	clear:both;
+	}	
+
+#menutopo {
+	width:907px;
+	height:auto;min-height:44px;
+	float:center;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;}
+
+/* publicidades */
+#publicidade {
+	width:242px;
+	height:auto;min-height:255px;
+	float:left;
+	background-color:#000;
+	}
+	
+#topopublicidade {
+	width:242px;
+	height:22px;
+	text-align:left;
+	text-indent:10px;
+	font-size:14px;
+	color:#FFF;
+	line-height:22px;
+	font-family:Verdana, Geneva, sans-serif;
+	}
+#fotopublicidade {
+	width:200px;
+	height:auto;min-height:203px;
+	padding-left:21px;
+	padding-right:21px;
+	padding-bottom:15px;
+	padding-top:15px;
+	}		
+
+/*  menus - meio e topo - */
+
+.menumeioinove {
+	width:907px;
+	height:59px;
+	background-color:transparent;
+	color:#F00;
+	text-align:center;
+	font-size:16px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-style:italic;
+	float:left;
+	}	
+
+.menumeioticao {
+	width:150px;
+	height:auto;min-height:59px;
+	background-color:transparent;
+	color:#0187DC;
+	text-align:center;
+	font-size:16px;
+	line-height:auto;min-height:59px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-style:italic;
+	font-weight:bold;
+	float:left;
+	}	
+
+	
+.patrocinadoresgrande {
+	width:142px;
+	height:auto;min-height:93px;
+	float:left;
+	margin-left:30px;
+	display:inline;
+	margin-top:21px;
+	margin-bottom:21px;
+	}	
+	
+.patrocinadoresmenor {
+	width:100px;
+	height:auto;min-height:60px;
+	float:left;
+	display:inline;
+	margin-left:20px;
+	margin-bottom:18px;
+	margin-top:19px;
+	}	
+	
+
+/* div ingresso */
+	
+#ingresso {
+	width:224px;
+	height:auto;min-height:302px;
+	float:left;
+	background-color:#3A535A;
+	border-radius:10px;
+	webkit-borde-radius:10px;
+	moz-border-radius:10px;
+	display:inline;
+	}	
+
+#fotoingresso {
+	width:129px;
+	height:auto;min-height:122px;
+	display:inline;
+	float:left;
+	margin-left:49px;
+	margin-right:47px;
+	margin-top:3px;
+	margin-bottom:3px;
+	}
+
+.topoingresso {
+	height:auto;min-height:39px; width:224px;
+    -webkit-border-top-right-radius:10px;
+    -webkit-border-top-left-radius:10px;
+    -moz-border-radius-topright:10px;
+    -moz-border-radius-topleft:10px;
+    background-color:#2C434B;
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	font-style:italic;
+	line-height:auto;min-height:39px;
+	text-align:center;
+}	
+
+div.texto_formulario {
+	width:55px;
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	text-align:left;
+	float:left;
+}	
+.campoingresso {
+	width:90px;
+	height:auto;min-height:20px;
+	float:left;
+	margin-right:10px;
+	border-radius:5px;
+	webkit-borde-radius:5px;
+	moz-border-radius:5px;
+	display:inline;
+	float:left;
+}
+/* div musicas  */
+
+.musicas {
+	width:224px;
+	height:auto;min-height:291px;
+	float:left;
+	background-color:#2C434B;oi
+	border-radius:10px;
+	webkit-borde-radius:10px;
+	moz-border-radius:10px;
+	}
+
+.topomusicas {
+	height:auto;min-height:39px; width:224px;   /*original 224px */
+    -webkit-border-top-right-radius:10px;
+    -webkit-border-top-left-radius:10px;
+    -moz-border-radius-topright:10px;
+    -moz-border-radius-topleft:10px;
+    background-color:#2C434B;
+	color:#F00;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:20px;
+	font-style:italic;
+	line-height:39px;min-height:39px;
+	text-align:left;
+	text-indent:10px;
+	   }	
+
+.listamusicas {
+	width:214px;
+	height:auto;min-height:252px;
+	float:left;
+	padding-left:10px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	text-align:left;
+	color:#000;
+	font-style:italic;
+	background-color:#000000;
+	}	   
+	   	
+/* videos */
+
+.videos {
+	width:428px;
+	height:auto;min-height:291px;
+	float:left;
+	display:block;
+	background-color:#000000;
+	}
+
+.videotopo {
+	width:428px;
+	height:auto;min-height:39px;
+	float:left;
+	font-size:13px;
+	font-family:Verdana, Geneva, sans-serif;
+	line-height:auto;min-height:39px;
+	color:#FFF;
+	background-color:#1D282E;
+	}
+
+.listavideos {
+	width:428px;
+	height:auto;min-height:291px;
+	float:left;
+	overflow:hidden;
+	display:inline-block;
+	background-color:#000000;
+	}
+	
+.linhaslistavideos {
+	width:428px;
+	height:auto;min-height:38px; line-height:38px;
+	margin-bottom:3px;
+	float:left;
+	display:inline-block;
+	overflow:hidden;
+	}
+	
+.quadradinhovermelho {
+	background-color:#F00;
+	width:40px;
+	height:auto;min-height:38px;
+	float:left;
+	}	
+
+.itenslistavideos {
+	width:388px;
+	height:auto;min-height:38px;
+	float:left;
+	text-indent:15px;
+	line-height:auto;min-height:38px;
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	font-style:italic;
+	}
+	
+.titulovideo{
+	width:386px; height:39px; text-indent:15px; background-color:transparent; line-height:39px;}	
+
+/* cartaz destaque */
+
+.cartaz {
+	width:221px;
+	height:auto;min-height:291px;
+	float:left;
+	}		
+	
+/* garota colirio */
+
+div.garotacolirio {
+	width:224px;
+	height:auto;min-height:347px;
+	float:left;
+	background-color:#000000;
+	font-size:20px;
+	color:#F00;
+	font-style:italic;
+	}	
+	
+#topogarotacolirio {
+	width:224px;
+	height:auto;min-height:48px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:20px;
+	color:#F00;
+	font-style:italic;
+	text-align:left;
+	text-indent:10px;
+	line-height:48px;
+	background-color:#000000;
+	}
+
+#fotogarotacolirio {
+	width:224px;
+	height:auto;min-height:260px;
+	display:block;
+	float:left;
+	}	
+#nomecolirio {
+	width:224px;
+	height:auto;min-height:32px;
+	float:left;
+	display:block;
+	font-size:13px;
+	color:#1D272D;
+	background-color:#000000;
+	text-align:left;
+	text-indent:10px;
+	line-height:32px; 
+	font-family:Verdana, Geneva, sans-serif;
+	}	
+
+/* newslatter  */	
+
+.newslatter {
+	width:231px;
+	height:auto;min-height:166px;
+	float:left;
+	background-color:#000000;
+	}	
+.toponewslatter {
+	padding-left:10px;
+	width:221px;
+	height:auto;min-height:37px;
+	font-size:14px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#F00;
+	padding-top:5px;
+	}	
+.camponewslatter {
+	width:100px;
+	height:auto;min-height:20px;
+	float:left;
+	border-radius:5px;
+	webkit-borde-radius:5px;
+	moz-border-radius:5px;
+	display:inline;
+    }	
+	
+.textonewslatter {
+	width:228px;
+	height:auto;min-height:50px;
+	float:left;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	text-align:left;
+	color:#FFF;
+	padding-top:6px;
+	padding-left:3px;
+	}	
+	
+/* ultimas fotos */
+
+#ultimasfotos {
+	width:318px;
+	height:auto;min-height:255px;
+	float:left;
+	background-color:#000000;
+	}	
+
+#topoultimasfotos {
+	width:308px;
+	height:auto;min-height:46px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:20px;
+	color:#F00;
+	text-align:left;
+	text-indent:10px;
+	line-height:46px;
+	}	
+	
+.miniaturasultimasfotos {
+	width:70px;
+	height:auto;min-height:40px;
+	float:left;
+	display:inline;
+	}	
+
+/* pagina de galeria de fotos  */ 
+
+
+#containergaleriafotos {
+	width:907px;
+	height:auto;min-height:119px;
+	float:left;
+	background-color:#000000;
+	display: inline-block;
+	}
+	
+#topogaleriafotos {
+	width:907px;
+	height:auto;min-height:37px;
+	float:left;
+	text-indent:15px;
+	font-size:14px;
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	line-height:auto;min-height:37px;
+	}	
+#containerminiaturasfotos {
+	width:907px;
+	height:auto;min-height:81px;
+	float:left;
+	display:block;
+	padding-top:10px;
+	background-color:#000000;
+	}
+
+.miniaturagaleriafotos {
+	width:70px;
+	height:auto;min-height:71px;
+	float:left;
+	display:inline;
+	margin-right:8px;
+        overflow:hidden;
+    }	
+
+/* galera do faceboook */	
+
+#galerafacebook {
+	width:318px;
+	height:auto;min-height:255px;
+	float:left;
+	background-color:#000000;
+	display:block;
+	}	
+
+#topogalerafacebook {
+	width:308px;
+	height:auto;min-height:46px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:20px;
+	color:#F00;
+	text-align:left;
+	line-height:46px;
+	}
+
+/*   pagina inove ticao   */
+	
+#textoinoveticao {
+	width:447px; /* tamanho total: 477.  padding de 15px pra cada lado */
+	height:auto;min-height:1088px;
+	float:left;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:15px;
+	text-align:justify;
+	color:#FFF;
+	font-size:14px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-style:italic;
+	background-color:#000000;
+	
+	}			
+h1 {
+	color:#F00;
+	font-size:20px;
+	font-style:italic;
+	font-family:Verdana, Geneva, sans-serif;
+	}
+			
+	
+#containerfoto {
+	width:415px;
+	height:auto;min-height:550px;
+	float:left;
+	}
+	
+#fotogrande {
+	width:404px;
+	height:auto;min-height:303px;
+	margin-top:17px;
+	margin-right:11px;
+	margin-bottom:15px;
+	float:left;
+	display:inline;
+	}	
+	
+#fotopequena {
+	width:126px;
+	height:auto;min-height:83px;
+	float:left;
+	display:inline;
+	margin-right:6px;
+	margin-left:6px;
+	}	
+
+div.comentarios {
+	width:572px;
+	height:auto;min-height:500;
+	display:block;
+	float:left;
+	}	
+	
+.nomesitens {
+	width:572px;
+	height:auto;min-height:20px;
+	text-align:left;
+	color:#F00;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	line-height:auto;min-height:20px;
+	float:left;
+	text-indent:54px;
+	}
+.itenscomentario {
+	width:464px; /* 54px cada lado de padding */
+	height:auto;
+	min-height:30px;
+	padding-left:54px;
+	padding-right:54px;
+	float:left;
+	display:block;
+	overflow:hidden;
+	text-align:justify;
+	text-indent:10px;
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	}		
+
+.divisoritens {
+	width:572px;
+	height:auto;min-height:10px;
+	line-height:auto;min-height:10px;
+	float:left;
+	clear:both;
+	color:#FFF;
+	font-size:14px; 
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;
+	}
+	
+/*  agenda de eventos */
+
+#containeragenda {
+	width:572px;
+	height:482px;
+	float:left;
+	background-color:#000000;
+	}		
+#conteudoagenda {
+	width:572px;
+        height:412px;
+	float:left;
+	display:block;
+	overflow:hidden;
+}
+#linhasagenda {
+	width:547px;  /* 10px de margin esquerda, e 15 de margen direita, 3 de margin inferior */
+	height:auto;min-height:38px;
+	margin-bottom:3px;
+	margin-left:10px;
+	margin-right:15px;
+	float:left;
+	display:inline;
+	background-color:#1D282E;
+}	
+	
+#itensagenda {
+	font-size:16px;
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:left;
+	text-indent:15px;
+	font-style:italic;
+	width:506px;
+	height:38px;
+	line-height:38px;
+	float:left;
+        cursor:default;
+        cursor:hand;
+	}
+	
+#containercartazagenda {
+	width:325px;
+	height:auto;min-height:473px;
+	float:left;
+	background-color:#000000;
+	}	
+	
+#cartazagenda {
+	width:295px;
+	height:auto;min-height:411px;
+	padding-left:16px;
+	padding-right:16px;
+	padding-top:15px;}
+	
+	
+	.cabecalhopaginas{ 
+            width:892px;
+            height:auto;min-height:40px;
+            line-height:auto;min-height:40px;
+            float:left;
+            margin-left:auto;
+            margin-right:auto;
+            color:#F00;
+            font-family:Verdana, Geneva, sans-serif;
+            font-size:16px;
+            font-weight:bold;
+            padding-left:15px;
+            background-color:#000000;
+            line-height:40px;
+	}	
+	
+.camposcontato {
+	width:auto;
+	height:auto;min-height:20px;
+	}		
+	
+.camposcontato {
+	width:auto;
+	height:auto;min-height:20px;
+	text-align:right;
+	}		
+
+h4 {
+	color:#09F;
+	font-size:20px;
+	font-style:italic;
+	}		
+		
+.linhasingresso {
+	width:224px;
+	height:auto;
+	float:left;
+	display:inline;
+	}
+	
+/*-----------------------------------menus agenda-------------------------------------------- */ 	
+
+	
+	
+#textarea1{
+	max-width:400px; max-height:150px; min-height:150px; min-width:400px;}
+	
+	
+a.sublinhados{
+	text-decoration:none; font-family:Verdana, Geneva, sans-serif; color:#FF0000; font-size:12px;}	
+	
+a.sublinhados:hover{
+	text-decoration:underline; font-family:Verdana, Geneva, sans-serif; color:#FF0000; font-size:12px;}		
+	
+a.sublinhados:visited{
+	text-decoration:none; font-family:Verdana, Geneva, sans-serif; color:#FF0000; font-size:12px;}		
+		
